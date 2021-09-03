@@ -1,3 +1,38 @@
+# First react portfolio
+
+* Needs header, content section, and footer.
+* Contains my name, navbar with titles of different sections, current section highlighted.
+* Default page is About me title and section.
+* About me bio.
+* Portfolio section contains 3 applications.
+* Contact form with errors.
+* link to downloadable resume.
+* footer contains icon links to github & linkedin.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
