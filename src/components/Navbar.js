@@ -27,7 +27,7 @@ function Navbar() {
                     </li>
                     <li>
                         <a data-testid="resume" href="">
-                        Resume
+                            Resume
                         </a>
                     </li>
                 </ul>

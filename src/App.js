@@ -1,12 +1,15 @@
 import React from 'react';
 import Navbar from './components/Navbar.js';
+import About from './components/About.js';
 import '../src/App.css';
 
 function App() {
+  
   return (
     <div>
-      <main>
         <Navbar />
+      <main>
+        <About />
       </main>
     </div>
   );
