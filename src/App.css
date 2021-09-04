@@ -18,6 +18,10 @@ html {
 
 }
 
+.page-name {
+  margin-left: 25px;
+}
+
 .navbar ul {
   margin: 0;
 }
@@ -55,4 +59,50 @@ html {
   text-align: center;
   font-family: 'Courier New';
   font-size: 20px;
+  background-color: black;
+}
+
+.projects {
+  background-color: black;
+  color: greenyellow;
+  border: 3px solid red;
+}
+
+/* Projects */
+/* .box {
+  background: #ffffff;
+  padding: 2.75em 1.75em 2.75em 1.75em;
+  background-color: aqua;
+}
+
+  .box .image.featured {
+    position: relative;
+    width: auto;
+    left: 1.75em;
+    top: 1.75em;
+    margin: -4.5em 0 4.25em -3.5em;
+  }
+
+  .box.post header {
+    padding-top: 1em;
+    margin: 0 0 2em 0;
+  }
+
+  .box.post h2 {
+    font-size: 2.5em;
+    letter-spacing: -0.015em;
+  }
+
+  .box.post header > p {
+    margin-top: 1.25em;
+    font-size: 1.25em;
+  }
+
+  .box footer ul.actions {
+    margin-bottom: 0;
+  } */
+
+.bootstrap {
+  color: white;
+  background-color: aqua;
 }

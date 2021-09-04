@@ -8,6 +8,7 @@
 * Contact form with errors.
 * link to downloadable resume.
 * footer contains icon links to github & linkedin.
+* installed bootstrap
 
 
 

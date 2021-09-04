@@ -5,7 +5,7 @@ function Navbar() {
     // return(JSX)
     return (
         <header className="flex-row px-1 navbar">
-            <h2>
+            <h2 class="page-name">
                 Tanner Smith
             </h2>
             <nav>
