@@ -1,20 +1,22 @@
 html {
-  background-color: black;
+  background-color: #F4D35E;
 
 }
 
 .App {
   text-align: center;
-  font-family: 'Courier New'
+font-family: Georgia, serif;  background-color: #F4D35E;
+}
 
+.app-div {
+  background-color: #F4D35E;
 }
 
 .navbar {
-  background-color: black;
-  padding: 10px;
-  color: greenyellow;
-  border-bottom: 1px solid red;
-  font-family: 'Courier New';
+  background-color: #28AFB0;
+  padding: 15px;
+  border-bottom: 2px solid black;
+  font-family: Georgia, serif;  color: black;
 
 }
 
@@ -34,8 +36,8 @@ html {
   display: inline-block;
   padding: .5em;
   text-decoration: none;
-  color: greenyellow;
   font-size: 20px;
+  color: black;
 
   
 }
@@ -43,7 +45,7 @@ html {
 .navbar a:after {
   display:block;
   content: '';
-  border-bottom: solid 1px red;  
+  border-bottom: solid 2px ;  
   transform: scaleX(0);  
   transition: transform 300ms ease-in-out;
   transform-origin:100% 50%;
@@ -55,18 +57,17 @@ html {
 }
 
 .about-section {
-  color: greenyellow;
   text-align: center;
-  font-family: 'Courier New';
-  font-size: 20px;
-  background-color: black;
+font-family: Georgia, serif;  font-size: 20px;
+  background-color: #F4D35E;
 }
 
 .projects {
-  background-color: black;
-  color: greenyellow;
+  background-color: #F4D35E;
   border: 3px solid red;
 }
+
+
 
 /* Projects */
 /* .box {

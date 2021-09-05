@@ -5,45 +5,54 @@ import Col from 'react-bootstrap/Col';
 
 function Projects() {
     return(
-        <Container>
-            <Row class>
-                <Col>1 of 3</Col>
-                <Col>1 of 3</Col>
-                <Col>1 of 3</Col>
+        <Container class="center-container">
+            <Row>
+                <Col>
+                    <section class="box">
+                        <a href="" target="_blank" class="image-featured"></a>
+                        <header>
+                            <h3>Project Title</h3>
+                        </header>
+                        <p>this is a description of the project</p>
+                        <footer>
+                            <ul class="actions">
+                                <li><a href="" target="_blank" class="button alt">Github</a></li>
+                            </ul>
+                        </footer>
+                    </section>
+                </Col>
+
+                <Col>
+                    <section class="box">
+                        <a href="" target="_blank" class="image-featured"></a>
+                        <header>
+                            <h3>Project Title</h3>
+                        </header>
+                        <p>this is a description of the project</p>
+                        <footer>
+                            <ul class="actions">
+                                <li><a href="" target="_blank" class="button alt">Github</a></li>
+                            </ul>
+                        </footer>
+                    </section>
+                </Col>
+
+                <Col>
+                    <section class="box">
+                        <a href="" target="_blank" class="image-featured"></a>
+                        <header>
+                            <h3>Project Title</h3>
+                        </header>
+                        <p>this is a description of the project</p>
+                        <footer>
+                            <ul class="actions">
+                                <li><a href="" target="_blank" class="button alt">Github</a></li>
+                            </ul>
+                        </footer>
+                    </section>
+                </Col>
             </Row>
         </Container>
-   
-        // <section>
-        //     <div class="col-4 col-6-medium col-12-small">
-        //         <section class="box">
-        //             <a href="" target="_blank" class="image featured"></a>
-        //             <header>
-        //                 <h3>Project title</h3>
-        //             </header>
-        //             <p>This is the description of the project</p>
-        //             <footer>
-        //                 <ul class="actions">
-        //                     <li><a href="" target="_blank" class="button alt">Github</a></li>
-        //                 </ul>
-        //             </footer>
-        //         </section>
-        //     </div>
-
-        //     <div class="col-4 col-6-medium col-12-small">
-        //         <section class="box">
-        //             <a href="" target="_blank" class="image featured"></a>
-        //             <header>
-        //                 <h3>Project title</h3>
-        //             </header>
-        //             <p>This is the description of the project</p>
-        //             <footer>
-        //                 <ul class="actions">
-        //                     <li><a href="" target="_blank" class="button alt">Github</a></li>
-        //                 </ul>
-        //             </footer>
-        //         </section>
-        //     </div>
-        // </section>
     )
 }
 
