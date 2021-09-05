@@ -107,3 +107,14 @@ font-family: Georgia, serif;  font-size: 20px;
   color: white;
   background-color: aqua;
 }
+
+.bootstrap-footer {
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #28AFB0;
+  font-family: Georgia, serif;  color: black;
+  text-align: center;
+}

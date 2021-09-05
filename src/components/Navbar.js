@@ -33,7 +33,6 @@ function Navbar() {
                 </ul>
             </nav>
         </header>
-        
     )
 }
 
