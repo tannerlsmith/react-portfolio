@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar.js';
 import About from './components/About.js';
 import Projects from './components/Projects.js';
-import Footer from './Footer';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../src/App.css';
 

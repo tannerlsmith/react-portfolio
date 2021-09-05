@@ -5,7 +5,7 @@ html {
 
 .App {
   text-align: center;
-font-family: Georgia, serif;  background-color: #F4D35E;
+  font-family: Georgia, serif;  background-color: #F4D35E;
 }
 
 .app-div {
@@ -38,8 +38,6 @@ font-family: Georgia, serif;  background-color: #F4D35E;
   text-decoration: none;
   font-size: 20px;
   color: black;
-
-  
 }
 
 .navbar a:after {
