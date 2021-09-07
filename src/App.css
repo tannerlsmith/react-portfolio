@@ -43,10 +43,14 @@ html {
 .navbar a:after {
   display:block;
   content: '';
-  border-bottom: solid 2px ;  
+  border-bottom: solid 2px;  
   transform: scaleX(0);  
   transition: transform 300ms ease-in-out;
   transform-origin:100% 50%;
+}
+
+.underline {
+  border-bottom: solid 2px;
 }
 
 .navbar a:hover:after {
@@ -116,3 +120,13 @@ font-family: Georgia, serif;  font-size: 20px;
   font-family: Georgia, serif;  color: black;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+

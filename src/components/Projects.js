@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 function Projects() {
     return(
-        <Container class="center-container">
+        <Container class="center-container projects">
             <Row>
                 <Col>
                     <section class="box">
