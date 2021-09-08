@@ -6,8 +6,9 @@ function Navbar(props) {
     let page;  
     if (props.currentPage === 'AboutMe') {
         page = 'AboutMe'
-    } 
-    // else if statements
+    } else if (props.currentPage === 'Projects') {
+        page = 'Projects'
+    }
 
     return (
         <header className="flex-row px-1 navbar header">
@@ -22,7 +23,7 @@ function Navbar(props) {
                         </a>
                     </li>
                     <li>
-                        <a data-testid="projects" href="#projects" onClick={() => props.setCurrentPage('Projects')}>
+                        <a data-testid="projects" href="#projects" className={page === 'Projects' ? 'underline':'' } onClick={() => props.setCurrentPage('Projects')}>
                             Projects
                         </a>
                     </li>

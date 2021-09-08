@@ -50,7 +50,7 @@ html {
 }
 
 .underline {
-  border-bottom: solid 2px;
+  font-style: italic;
 }
 
 .navbar a:hover:after {
@@ -60,7 +60,7 @@ html {
 
 .about-section {
   text-align: center;
-font-family: Georgia, serif;  font-size: 20px;
+  font-family: Georgia, serif;  font-size: 20px;
   background-color: #F4D35E;
 }
 
