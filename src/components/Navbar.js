@@ -8,6 +8,8 @@ function Navbar(props) {
         page = 'AboutMe'
     } else if (props.currentPage === 'Projects') {
         page = 'Projects'
+    } else if (props.currentPage === 'ContactForm') {
+        page = 'ContactForm'
     }
 
     return (
@@ -28,7 +30,7 @@ function Navbar(props) {
                         </a>
                     </li>
                     <li>
-                        <a data-testid="contact" href="#contact" onClick={() => props.setCurrentPage('ContactForm')}>
+                        <a data-testid="contact" href="#contact" className={page === 'ContactForm' ? 'underline':''} onClick={() => props.setCurrentPage('ContactForm')}>
                             Contact
                         </a>
                     </li>
