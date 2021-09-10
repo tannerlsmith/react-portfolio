@@ -58,10 +58,14 @@ html {
   transform-origin:0 50%;
 }
 
+
 .about-section {
   text-align: center;
   font-family: Georgia, serif;  font-size: 20px;
   background-color: #F4D35E;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
 }
 
 .projects {
@@ -69,6 +73,12 @@ html {
   border: 3px solid red;
 }
 
+.about-me-image {
+  float: center;
+  height: 200px;
+  width: 200px;
+  /* set image above <p> tags */
+}
 
 
 /* Projects */
