@@ -1,19 +1,19 @@
 html {
-    background-color: #F4D35E;
+    background-color: #edddd4;
   
 }
   
 .App {
     text-align: center;
-    font-family: Georgia, serif;  background-color: #F4D35E;
+    font-family: Georgia, serif;  background-color: #edddd4;
 }
   
 .app-div {
-    background-color: #F4D35E;
+    background-color: #edddd4;
 }
   
 .navbar {
-    background-color: #28AFB0;
+    background-color: #197278;
     padding: 15px;
     border-bottom: 2px solid black;
     font-family: Georgia, serif;  color: black;
@@ -68,14 +68,14 @@ html {
 .about-section {
     text-align: center;
     font-family: Georgia, serif;  font-size: 20px;
-    background-color: #F4D35E;
+    background-color: #edddd4;
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
 }
 
 .projects {
-    background-color: #F4D35E;
+    background-color: #edddd4;
     border: 3px solid red;
 }
 
@@ -88,37 +88,26 @@ html {
 
 
 
+.box {
+    padding: 2.75em 1.75em 2.75em 1.75em;
+}
 
-/* Projects */
-/* .box {
-background: #ffffff;
-padding: 2.75em 1.75em 2.75em 1.75em;
-background-color: aqua;
+.box-h3 {
+    font-family: Georgia, serif;
 }
-.box .image.featured {
-    position: relative;
-    width: auto;
-    left: 1.75em;
-    top: 1.75em;
-    margin: -4.5em 0 4.25em -3.5em;
-}
-.box.post header {
-    padding-top: 1em;
-    margin: 0 0 2em 0;
-}
-.box.post h2 {
-    font-size: 2.5em;
-    letter-spacing: -0.015em;
-}
-.box.post header > p {
+
+.postp {
     margin-top: 1.25em;
     font-size: 1.25em;
 }
-.box footer ul.actions {
+
+.project-footer {
     margin-bottom: 0;
-} */
+}
 
-
+.project-footer ul.actions {
+    margin-bottom: 0;
+}
 
 
 .bootstrap-footer {
@@ -127,7 +116,7 @@ background-color: aqua;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #28AFB0;
+    background-color: #197278;
     font-family: Georgia, serif;  color: black;
     text-align: center;
 }

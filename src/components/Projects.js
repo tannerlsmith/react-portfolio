@@ -11,10 +11,10 @@ function Projects() {
                     <section class="box">
                         <a href="" target="_blank" class="image-featured"></a>
                         <header>
-                            <h3>Project Title</h3>
+                            <h3 class="box-h3">Project Title</h3>
                         </header>
-                        <p>this is a description of the project</p>
-                        <footer>
+                        <p class="postp">this is a description of the project</p>
+                        <footer class="project-footer">
                             <ul class="actions">
                                 <li><a href="" target="_blank" class="button alt">Github</a></li>
                             </ul>
