@@ -114,11 +114,21 @@ html {
   .box footer ul.actions {
     margin-bottom: 0;
   } */
-
-.bootstrap {
-  color: white;
-  background-color: aqua;
+textarea {
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 55%;
 }
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
 
 .bootstrap-footer {
   padding: 20px;
