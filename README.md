@@ -9,6 +9,7 @@
 * link to downloadable resume.
 * footer contains icon links to github & linkedin.
 * installed bootstrap
+* This project isn't my main portfolio. It's just a project for learning React components. 
 
 
 
