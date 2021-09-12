@@ -11,7 +11,7 @@
 * installed bootstrap
 * This project isn't my main portfolio. It's just a project for learning React components. 
 
-
+* should be deployed here: http://tannerlsmith.github.io/react-portfolio
 
 
 
