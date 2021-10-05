@@ -230,3 +230,47 @@ input[type=submit]:hover {
     padding: 0 1.9286em;
     width: 100%;
 }
+
+.footer-icons a {
+    color: white;
+}
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navigation {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
