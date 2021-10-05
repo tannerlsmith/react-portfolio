@@ -35,7 +35,7 @@ function Navbar(props) {
                         </a>
                     </li>
                     <li>
-                        <a data-testid="resume" href="">
+                        <a data-testid="resume" id="resume" href="">
                             Resume
                         </a>
                     </li>
